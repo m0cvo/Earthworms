@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:Earthworms"
         mc:Ignorable="d"
         Title="Earthworms" Height="450" Width="800">
-    <Grid>
-
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="40*"></RowDefinition>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
