@@ -10,25 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Earthworms
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Clit.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Clit : Window
     {
-        public MainWindow()
+        public Clit()
         {
             InitializeComponent();
         }
 
-        private void HeadBtn_Click(object sender, RoutedEventArgs e)
+        private void CloseBtn_Click(object sender, RoutedEventArgs e)
         {
-            Head head = new Head();
-            head.Show();
+            this.Close();
         }
     }
 }

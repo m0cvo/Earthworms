@@ -22,11 +22,9 @@
             <RowDefinition Height="10*"></RowDefinition>
             <RowDefinition Height="10*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button x:Name="MouthBtn" Content="" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="83" Width="175" Background="{x:Null}" BorderBrush="{x:Null}" Click="MouthBtn_Click"/>
-        <Button x:Name="HeadBtn" Content="" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="84" Width="175" BorderBrush="{x:Null}" Background="{x:Null}" Click="HeadBtn_Click"/>
-        <Button x:Name="ClitellumBtn" Grid.Column="1" Content="" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="266" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>
-        <Button x:Name="BodyBtn" Grid.Column="2" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Height="394" Width="175" BorderBrush="{x:Null}" Background="{x:Null}" Margin="0,10,0,0" Grid.RowSpan="4"/>
-        <Button x:Name="TailBtn" Grid.Column="3" Content="" HorizontalAlignment="Center" Height="291" Grid.Row="1" VerticalAlignment="Center" Width="175" Background="{x:Null}" BorderBrush="{x:Null}"/>
+
         <Button x:Name="InfoBtn" Content="Info...." HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" Width="100" Height="30" />
+        <Button Grid.Column="1" x:Name="HeadBtn" Content="?" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="40" Height="40" Click="HeadBtn_Click"/>
+        <Button x:Name="ClitBtn" Grid.Column="2" Content="?" HorizontalAlignment="Center" Margin="0,51,0,0" Grid.Row="3" VerticalAlignment="Top" Width="40" Height="40" FontSize="16" RenderTransformOrigin="0.534,0.077"/>
     </Grid>
 </Window>
