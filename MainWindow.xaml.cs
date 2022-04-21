@@ -30,5 +30,11 @@ namespace Earthworms
             Head head = new Head();
             head.Show();
         }
+
+        private void ClitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Clit clit = new Clit();
+            clit.Show();
+        }
     }
 }
