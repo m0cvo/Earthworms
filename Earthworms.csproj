@@ -7,4 +7,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Diagram-of-an-earthworm-Source.png" />
+    <None Remove="WormHead.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Diagram-of-an-earthworm-Source.png" />
+    <Resource Include="WormHead.png" />
+  </ItemGroup>
+
 </Project>

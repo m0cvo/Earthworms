@@ -10,31 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Earthworms
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Head.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Head : Window
     {
-        public MainWindow()
+        public Head()
         {
             InitializeComponent();
         }
 
-        private void HeadBtn_Click(object sender, RoutedEventArgs e)
+        private void CloseBtn_Click(object sender, RoutedEventArgs e)
         {
-            Head head = new Head();
-            head.Show();
-        }
-
-        private void MouthBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Head mouth = new Head();
-            mouth.Show();
+            this.Close();
         }
     }
 }
