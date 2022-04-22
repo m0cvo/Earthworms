@@ -57,7 +57,7 @@ namespace Earthworms
 
         private void AboutBtn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Earthworms  Copyright N.Booth 2022 for Mogpie image credit to https://creativecommons.org/licenses/by-sa/3.0/ ");
+            MessageBox.Show("Earthworms  Copyright N.Booth 2022 for Mogpie images credit to https://creativecommons.org/licenses/by-sa/3.0/ ");
         }
     }
 }
