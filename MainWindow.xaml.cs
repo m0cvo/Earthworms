@@ -30,18 +30,21 @@ namespace Earthworms
 
         private void HeadBtn_Click(object sender, RoutedEventArgs e)
         {
+            // Anatomical diagram of head
             Head head = new Head();
             head.Show();
         }
 
         private void ClitBtn_Click(object sender, RoutedEventArgs e)
         {
+            //May not be the best choice of name but as the earthworm has a clitellum...
             Clit clit = new Clit();
             clit.Show();
         }
 
         private void InfoBtn_Click(object sender, RoutedEventArgs e)
         {
+            //Shows information about earthworms
             InfoWindow infoWindow = new InfoWindow();
             infoWindow.Show();
         }

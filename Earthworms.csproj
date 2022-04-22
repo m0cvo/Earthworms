@@ -5,12 +5,17 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>computer.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Diagram-of-an-earthworm-Source.png" />
     <None Remove="EarthwormClitellum.png" />
     <None Remove="WormHead.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="computer.ico" />
   </ItemGroup>
 
   <ItemGroup>
