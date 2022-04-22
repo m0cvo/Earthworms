@@ -20,6 +20,9 @@ namespace Earthworms
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Earthworms Copyright (c) Nigel Booth 2022 for Mogpie
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -41,6 +44,11 @@ namespace Earthworms
         {
             InfoWindow infoWindow = new InfoWindow();
             infoWindow.Show();
+        }
+
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

@@ -7,8 +7,33 @@
         mc:Ignorable="d"
         Title="InfoWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="InfoList" Margin="0,0,566,130" BorderBrush="#FF0743F7" FontSize="14" Loaded="InfoList_Loaded"/>
-        <Button x:Name="CloseBtn" Content="Close" HorizontalAlignment="Left" Margin="665,366,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="14" Click="CloseBtn_Click"/>
+        <ListBox x:Name="InfoList" Margin="10,10,556,120" BorderBrush="#FF0743F7" FontSize="14" Loaded="InfoList_Loaded"/>
+        <Button x:Name="CloseBtn" Content="Close" HorizontalAlignment="Left" Margin="10,344,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="14" Click="CloseBtn_Click"/>
+        <RichTextBox Margin="249,0,0,0" >
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="From Wikipedia, the free encyclopedia:"/>                                                                                               
+                </Paragraph>
+                <Paragraph>
+                    An earthworm is a terrestrial invertebrate that belongs to the phylum Annelida. They exhibit a tube-within-a-tube body plan; they are externally segmented with corresponding internal segmentation; and they usually have setae on all segments. They occur worldwide where soil, water, and temperature allow.</Paragraph>
+                <Paragraph>
+                    Earthworms are commonly found in soil, eating a wide variety of organic matter. This organic matter includes plant matter, living protozoa, rotifers, nematodes, bacteria, fungi, and other microorganisms. An earthworm's digestive system runs the length of its body.
+                    </Paragraph>
+                <Paragraph>
+                    An earthworm respires through its skin. It has a double transport system made of coelomic fluid that moves within the fluid-filled coelom and a simple, closed circulatory system.</Paragraph>
+                <Paragraph>
+                    It has a central and peripheral nervous system. Its central nervous system consists of two ganglia above the mouth, one on either side, connected to a nerve running along its length to motor neurons and sensory cells in each segment. Large numbers of chemoreceptors concentrate near its mouth.</Paragraph>
+                <Paragraph>
+                    Circumferential and longitudinal muscles edging each segment let the worm move. Similar sets of muscles line the gut, and their actions move digesting food toward the worm's anus.</Paragraph>
+                <Paragraph>
+                    Earthworms are hermaphrodites: each carries male and female reproductive organs. When mating, two individual earthworms will exchange sperm and fertilize each other's eggs. Each individual has both male and female genital pores. As invertebrates, they lack a true skeleton, but they maintain their structure with fluid-filled coelom chambers that function as a hydrostatic skeleton.</Paragraph>
+                <Paragraph>
+                    Earthworm is the common name for the largest members of Oligochaeta (which is a class or subclass depending on the author). In classical systems, they were in the order Opisthopora since the male pores opened posterior to the female pores, although the internal male segments are anterior to the female. Theoretical cladistic studies have placed them in the suborder Lumbricina of the order Haplotaxida, but this may soon change.[clarification needed] Folk names for the earthworm include dew-worm, rainworm, nightcrawler, and angleworm (from its use as fishing bait).</Paragraph>
+                <Paragraph>
+                    Larger terrestrial earthworms are also called megadriles (translates to big worms) as opposed to the microdriles (small worms) in the semiaquatic families Tubificidae, Lumbricidae, and Enchytraeidae. The megadriles are characterized by a distinct clitellum (more extensive than that of microdriles) and a vascular system with true capillaries"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
 
     </Grid>
 </Window>
