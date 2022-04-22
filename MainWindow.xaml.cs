@@ -51,6 +51,7 @@ namespace Earthworms
 
         private void ExitBtn_Click(object sender, RoutedEventArgs e)
         {
+            //Close application
             Application.Current.Shutdown();
         }
 
