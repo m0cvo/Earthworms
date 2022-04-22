@@ -50,5 +50,10 @@ namespace Earthworms
         {
             Application.Current.Shutdown();
         }
+
+        private void AboutBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Earthworms  Copyright N.Booth 2022 for Mogpie");
+        }
     }
 }
