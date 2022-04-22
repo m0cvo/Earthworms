@@ -23,7 +23,7 @@
             <RowDefinition Height="10*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Button x:Name="InfoBtn" Content="Info...." HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" Width="100" Height="30" />
+        <Button x:Name="InfoBtn" Content="Info...." HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="InfoBtn_Click" />
         <Button Grid.Column="1" x:Name="HeadBtn" Content="?" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="40" Height="40" Click="HeadBtn_Click"/>
         <Button x:Name="ClitBtn" Grid.Column="2" Content="?" HorizontalAlignment="Center" Margin="0,51,0,0" Grid.Row="3" VerticalAlignment="Top" Width="40" Height="40" FontSize="16" RenderTransformOrigin="0.534,0.077" Click="ClitBtn_Click"/>
     </Grid>

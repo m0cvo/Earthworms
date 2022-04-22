@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/EarthwormClitellum.png"/>
         </Grid.Background>
-        <Button x:Name="CloseBtn" Content="Close" HorizontalAlignment="Left" Margin="672,372,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="14" Click="CloseBtn_Click"/>
+        <Button x:Name="CloseBtn" Content="Close" HorizontalAlignment="Left" Margin="654,342,0,0" VerticalAlignment="Top" Width="100" Height="30" FontSize="14" Click="CloseBtn_Click"/>
 
 
     </Grid>

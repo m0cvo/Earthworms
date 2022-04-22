@@ -36,5 +36,11 @@ namespace Earthworms
             Clit clit = new Clit();
             clit.Show();
         }
+
+        private void InfoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            InfoWindow infoWindow = new InfoWindow();
+            infoWindow.Show();
+        }
     }
 }
